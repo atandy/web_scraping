@@ -1,1 +1,1 @@
-# screen_scraping
+# web_scraping
