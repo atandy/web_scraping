@@ -1,3 +1,4 @@
+#-*- coding: utf-8 -*-
 import requests
 import bs4
 import csv
@@ -16,8 +17,8 @@ for apt in apts:
     listing = apt.getText()
     try:
         rank = listing.split('.')[0]
-        location = listing.split('.')[1].split(unicode('–','utf-8'))[0]
-        info = listing.split(unicode('–','utf-8'))[1].split('$')[0]
+        location = listing.split('.')[1].split('–'.decode('utf-8'))[0]
+        info = listing.split('–'.decode('utf-8'))[1].split('$')[0]
         price = listing.split('$')[1]
 
         d = {

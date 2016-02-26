@@ -8,7 +8,7 @@ import time
 movie_dict_list = []
 
 # set master loop for total number of movies in listicle
-for number in range(1,101):
+for number in range(1,5):
     time.sleep(1)
     url = "http://www.esquire.com/entertainment/movies/g2419/100-best-sci-fi-movies/?slide={}".format(number)
     # make request
@@ -27,8 +27,8 @@ for number in range(1,101):
         if len(text) > 0:
             movie_name = text.split('.')[1]
             rank = text.split('.')[0]
-            movie_name = encode(movie_name, 'utf-8')
-            rank = encode(rank, 'utf-8')
+            #movie_name = encode(movie_name, 'utf-8')
+            #rank = encode(rank, 'utf-8')
 
             # Step 8: Transform and Store the data in dictionary format.
             d = {'movie_name': movie_name, 'rank': rank}
