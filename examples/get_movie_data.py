@@ -5,19 +5,9 @@ movie_title = "titanic"
 url = """http://www.omdbapi.com/?t={}&y=&plot=short&r=json""".format(movie_title)
 
 response = requests.get(url).json()
-try:
-    year = response['Year']
-except:
-    year = None
-try:
-    writer = response['Writer']
-except:
-    writer = None
 
-try:
-    metascore = response['Metascore']
-except:
-    metascore = None
-
+year = response.get('Year')
+writer = response.get('Writer')
+metascore = response.get('Metascore')
 
 print(year, writer, metascore)
