@@ -1,7 +1,9 @@
 ##Agenda
 
-**Await Late Arrivals/Introductions** (1:00 p.m. to 1:30 p.m.  – 30 minutes)
+**Await Late Arrivals/Introductions** (1:00 p.m. to 1:30 p.m. - 30 minutes)
+
 **What/Why/How** (1:30 p.m. to 1:45 p.m. – 15 minutes)
+
 **I Do** (1:45 p.m. to 2:15 p.m. – 30 minutes)
 - Explain the 9 steps of a web scraping project 
 
