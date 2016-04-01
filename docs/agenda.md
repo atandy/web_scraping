@@ -1,6 +1,6 @@
-Agenda
+##Agenda
 
-Introductions/Await Late Arrivals (1:00 p.m. to 1:30 p.m.  – 30 minutes)
+Await Late Arrivals/Introductions *(1:00 p.m. to 1:30 p.m.  – 30 minutes)
 
 What/Why/How (1:30 p.m. to 1:45 p.m. – 15 minutes)
 
