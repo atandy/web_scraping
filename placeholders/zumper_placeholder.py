@@ -1,3 +1,4 @@
+#-*- coding: utf-8 -*-
 import requests
 import bs4
 import csv
@@ -8,6 +9,8 @@ url = "https://www.zumper.com/blog/2015/07/the-10-most-luxurious-apartments-for-
 
 
 # Step 2: Determine what data you'll be retrieving.
+    #rank, location, info, price
+
 # Step 3: Inspect and analyze the website's structure to learn how to get the data.
 # Step 4: Think about how you want to structure your data.
 # Step 5: request for the page’s content with Python Requests and store the content in a variable.

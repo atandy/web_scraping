@@ -1,4 +1,4 @@
-# import modules
+#-*- coding: utf-8 -*-
 import requests
 import bs4
 import csv
@@ -10,6 +10,7 @@ import time
 url = "http://www.esquire.com/entertainment/movies/g2419/100-best-sci-fi-movies/?slide=1"
 
 # Step 2: Determine what data you'll be retrieving.
+    # movie_name, rank
 # Step 3: Inspect and analyze the website's structure to learn how to get the data.
 # Step 4: Think about how you want to structure your data.
 # Step 5: request for the page’s content with Python Requests and store the content in a variable.
